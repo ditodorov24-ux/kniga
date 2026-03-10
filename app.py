@@ -26,7 +26,7 @@ if st.button(" Покажи всички книги"):
   if len(st.session_state.books) == 0: 
     st.write("Няма добавени книги.")
 else:
-  for book in st.session state.books:
+  for book in st.session_state.books:
     st.write("Заглавие:", book ["title"])
     st.write("Автор:", book["author"])
     st.write("Цена:", book["price"])
